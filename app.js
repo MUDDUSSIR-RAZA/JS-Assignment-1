@@ -1,4 +1,5 @@
 let loadingLine = document.querySelector(".loadingLine");
+let showHide = document.querySelector(".showHide");
 let bgColor = 10;
 let interval;
 
@@ -27,4 +28,12 @@ let change = (pic) => {
 
 let reChange = (pic) => {
     pic.src = "./images/pic1.jpg"
+}
+
+let showHideFunction = () => {
+    if (showHide.style.display === "flex") {
+        showHide.style.display = "none";
+    } else {
+        showHide.style.display = "flex";
+    }
 }
