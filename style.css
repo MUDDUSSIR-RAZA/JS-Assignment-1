@@ -1,0 +1,42 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+main{
+    padding: 10px;
+    text-align: center;
+}
+
+div {
+    padding: 10px 0;
+}
+header ,footer {
+    background-image: linear-gradient(to right, #43cea2, #185a9d);
+    text-align: center;
+}
+
+.loadingLine {
+    background-color: blueviolet;
+    width: 10%;
+}
+
+img {
+    width: 500px;
+}
+
+h2, h3, button {
+    margin: 5px 0;
+    padding: 2px;
+}
+
+.showHide {
+    display: flex;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
