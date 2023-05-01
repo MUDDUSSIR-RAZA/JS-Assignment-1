@@ -20,3 +20,11 @@ let load = () => {
         interval = setInterval(loadingLineFunction, 500);
     }
 };
+
+let change = (pic) => {
+    pic.src = "./images/pic2.jpg"
+}
+
+let reChange = (pic) => {
+    pic.src = "./images/pic1.jpg"
+}
